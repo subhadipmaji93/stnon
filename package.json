@@ -1,18 +1,24 @@
 {
   "name": "stnon",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhadipmaji93/stnon.git"
+  },
+  "author": "Subhadip Maji",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "spdy": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

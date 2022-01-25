@@ -3,8 +3,10 @@ const path = require("path");
 const exphbs = require("express-handlebars");
 const mainRoute = require("./src/routes/mainRoute");
 const helpers = require("./src/config/helpers");
+const compression = require("compression");
 
 const app = express();
+app.use(compression());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "/public")));
 app.set("view engine", "hbs");
