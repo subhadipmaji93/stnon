@@ -1826,7 +1826,7 @@ textarea {
 
 .page-header .inner h1 {
   color: #ffffff50;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 10vw;
   letter-spacing: 2px;
 }
@@ -2727,24 +2727,21 @@ textarea {
   width: 45%;
   margin: 0;
   position: relative;
-  -webkit-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
-  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
 }
 
 .blog .post .post-image img {
   position: relative;
-  width: 100%;
+  width: 50%;
 }
 
 .blog .post .post-image:before {
   content: "";
-  width: 90%;
-  height: 60%;
+  width: 50%;
+  height: 30%;
   position: absolute;
   right: -25px;
   bottom: -30px;
   z-index: 0;
-  background: url(../images/dot-pattern.png) right;
   background-size: 10px;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
@@ -3472,6 +3469,23 @@ textarea {
     width: 100%;
     display: block;
     margin-top: 5px;
+  }
+  .page-header {
+    height: 50vh;
+  }
+  .left-side {
+    height: 50vh;
+  }
+
+  .site-navigation .layer {
+    height: 70%;
+  }
+
+  .site-navigation .inner {
+    top: -20%;
+  }
+  .all-cases .layer {
+    height: 80%;
   }
 }
 

@@ -1,8 +1,8 @@
 let db = {
   home: {
     src: "land.webm",
-    h1: "Waiting for our vision",
-    p: "-",
+    h1: "",
+    p: "Waiting for our vision",
   },
   contact: {
     src: "contact.webp",
