@@ -1973,6 +1973,10 @@ textarea {
   font-weight: 600;
 }
 
+.intro-image .container {
+  padding: 0;
+}
+
 /* PROCESS */
 .process {
   width: 100%;
@@ -3348,7 +3352,7 @@ textarea {
     padding-left: 100px;
   }
   .all-cases .inner ul li {
-    font-size: 13vw;
+    font-size: 8vw;
   }
   .site-navigation .inner {
     padding-left: 0;

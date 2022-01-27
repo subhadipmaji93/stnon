@@ -1,7 +1,7 @@
 exports.pageHeaderVid = function (val) {
   return `<header class="page-header">
   <div class="video-bg">
-      <video src="/videos/${val.video}" muted loop></video>
+      <video src="/videos/${val.src}" muted loop></video>
   </div>
   <div class="inner">
     <div class="container">
@@ -15,7 +15,7 @@ exports.pageHeaderVid = function (val) {
 exports.pageHeaderImg = function (val) {
   return `<header class="page-header">
     <div class="image-bg">
-        <img src="/images/${val.image}" alt="" />
+        <img src="/images/${val.src}" alt="" />
     </div>
     <!-- end image-bg -->
     <div class="inner">
