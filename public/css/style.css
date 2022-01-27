@@ -3183,6 +3183,12 @@ textarea {
   color: #ff0000;
 }
 
+.footer img {
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px),
   only screen and (max-device-width: 991px) {
