@@ -1,8 +1,8 @@
 let db = {
   home: {
-    src: "land.webm",
-    h1: "",
-    p: "Waiting for our vision",
+    src: "land_h24m7o.webm",
+    h1: "STNON",
+    p: "-",
   },
   contact: {
     src: "contact.webp",
@@ -15,7 +15,7 @@ let db = {
     p: ".",
   },
   anywhere: {
-    src: "anywhere.webp",
+    src: "anywhere.webpm",
     h1: "Anywhere",
     p: "Social Intregation Division",
   },
@@ -45,12 +45,12 @@ let db = {
     p: "An Online Learning Platform",
   },
   scl: {
-    src: "scl.webp",
+    src: "HARDWARE_VIDEO_s3rwqo.webm",
     h1: "SCL",
     p: "Hardware Division",
   },
   ssl: {
-    src: "ssl.webp",
+    src: "SOFTWARE_d97kyp.webm",
     h1: "SSL",
     p: "Computer Sowtware Division",
   },
@@ -65,14 +65,14 @@ let db = {
     p: "Futeristic Electric Concept Car",
   },
   stf: {
-    src: "stf.webp",
+    src: "FASHION_kw5gpg.webm",
     h1: "Stnon Fashion",
-    p: ".",
+    p: "A fashion brand",
   },
   clearPaper: {
-    src: "clear_paper.webp",
+    src: "HUMAN_LIFE_FINAL_WEBM_dpvt6t.webm",
     h1: "Clear Paper",
-    p: ".",
+    p: "An organization for saving our ecosystem",
   },
   error: {
     src: ".",

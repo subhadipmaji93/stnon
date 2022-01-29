@@ -1,7 +1,7 @@
 exports.pageHeaderVid = function (val) {
   return `<header class="page-header">
   <div class="video-bg">
-      <video src="/videos/${val.src}" muted loop></video>
+      <video src="https://res.cloudinary.com/stnon/video/upload/v1643469528/videos/${val.src}" muted loop></video>
   </div>
   <div class="inner">
     <div class="container">

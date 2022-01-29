@@ -2685,7 +2685,7 @@ textarea {
 }
 
 .blog .post.single .post-image {
-  width: 100%;
+  width: 60%;
   margin-bottom: 50px;
 }
 
@@ -2731,21 +2731,7 @@ textarea {
 
 .blog .post .post-image img {
   position: relative;
-  width: 50%;
-}
-
-.blog .post .post-image:before {
-  content: "";
-  width: 50%;
-  height: 30%;
-  position: absolute;
-  right: -25px;
-  bottom: -30px;
-  z-index: 0;
-  background-size: 10px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-  opacity: 0.2;
+  width: 75%;
 }
 
 .blog .post .post-content {
@@ -3483,15 +3469,15 @@ textarea {
     height: 50vh;
   }
 
-  .site-navigation .layer {
-    height: 70%;
-  }
-
   .site-navigation .inner {
     top: -20%;
   }
-  .all-cases .layer {
-    height: 80%;
+  .blog .post .post-image img {
+    width: 50%;
+  }
+
+  .blog .post.single .post-image {
+    width: 100%;
   }
 }
 
