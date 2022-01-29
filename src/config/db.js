@@ -1,7 +1,7 @@
 let db = {
   home: {
     src: "land_h24m7o.webm",
-    h1: "STNON",
+    h1: "-",
     p: "-",
   },
   contact: {

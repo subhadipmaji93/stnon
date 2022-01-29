@@ -5,8 +5,6 @@ exports.pageHeaderVid = function (val) {
   </div>
   <div class="inner">
     <div class="container">
-      <h1>${val.h1}</h1>
-      <p>${val.p}</p>
     </div>
   </div>
 </header>`;
