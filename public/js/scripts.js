@@ -117,22 +117,53 @@
 
     // EQUALIZER TOGGLE
     var video = document.querySelector("video");
-
-    video.play().then(() => {
-      video.volume = 0.5;
-    });
-
-    function play() {
-      if (isMute == false) {
-        video.muted = false;
-        isMute = true;
+    if (video !== null) {
+      if (window.screen.width < 500) {
+        video.src += video.dataset.small + ".mp4";
+      } else if (window.screen.width < 800) {
+        video.src += video.dataset.medium + ".mp4";
       } else {
-        video.muted = true;
-        isMute = false;
+        video.src += video.dataset.big + ".mp4";
       }
+
+      video.play().then(() => {
+        video.volume = 0.5;
+      });
+
+      function play() {
+        if (isMute == false) {
+          video.muted = false;
+          isMute = true;
+        } else {
+          video.muted = true;
+          isMute = false;
+        }
+      }
+      var isMute = false;
+      $(".equalizer").css("display", "block");
+      $(".unmute").css("display", "block");
+      $(".allow-full-screen").css("display", "block");
+      $(".equalizer").click(play);
+      $(".unmute").click(function () {
+        play();
+        $(".equalizer").toggleClass("paused");
+      });
+
+      // Allow Full Screen
+      function toggleFullScreen() {
+        if (!document.fullscreenElement) {
+          screen.orientation.lock("landscape-secondary");
+          video.requestFullscreen();
+        } else {
+          if (document.exitFullscreen) {
+            screen.orientation.unlock();
+            document.exitFullscreen();
+          }
+        }
+      }
+
+      $(".allow-full-screen").click(toggleFullScreen);
     }
-    var isMute = false;
-    $(".equalizer").click(play);
 
     // EQUALIZER
     function randomBetween(range) {

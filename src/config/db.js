@@ -1,8 +1,8 @@
 let db = {
   home: {
-    src: "land_h24m7o.webm",
-    h1: "-",
-    p: "-",
+    big: "land_1280_4000_s2wrgi",
+    medium: "land_640_1200_zkki25",
+    small: "land_352_584_uc0dwh",
   },
   contact: {
     src: "contact.webp",
@@ -15,7 +15,7 @@ let db = {
     p: ".",
   },
   anywhere: {
-    src: "anywhere.webpm",
+    src: "anywhere.webp",
     h1: "Anywhere",
     p: "Social Intregation Division",
   },
@@ -45,14 +45,14 @@ let db = {
     p: "An Online Learning Platform",
   },
   scl: {
-    src: "HARDWARE_VIDEO_s3rwqo.webm",
-    h1: "SCL",
-    p: "Hardware Division",
+    big: "hardware_1280_4000_yfzhe8",
+    medium: "hardware_640_1500_xswjvq",
+    small: "hardware_352_512_d9gcen",
   },
   ssl: {
-    src: "SOFTWARE_d97kyp.webm",
-    h1: "SSL",
-    p: "Computer Sowtware Division",
+    big: "software_1280_4000_jogt4b",
+    medium: "software_640_1500_tktwtw",
+    small: "software_352_512_tgm6oy",
   },
   astika: {
     src: "astika.webp",
@@ -65,14 +65,14 @@ let db = {
     p: "Futeristic Electric Concept Car",
   },
   stf: {
-    src: "FASHION_kw5gpg.webm",
-    h1: "Stnon Fashion",
-    p: "A fashion brand",
+    big: "fashion_1280_4000_a0moim",
+    medium: "fashion_640_1500_tmwlwd",
+    small: "fashion_352_512_zrkxme",
   },
   clearPaper: {
-    src: "HUMAN_LIFE_FINAL_WEBM_dpvt6t.webm",
-    h1: "Clear Paper",
-    p: "An organization for saving our ecosystem",
+    big: "human_1280_4000_ynej1b",
+    medium: "human_640_1500_xik5kv",
+    small: "human_352_512_k0jddw",
   },
   error: {
     src: ".",
