@@ -127,7 +127,7 @@
       }
 
       video.play().then(() => {
-        video.volume = 0.5;
+        video.volume = 1;
       });
 
       function play() {
@@ -143,10 +143,14 @@
       $(".equalizer").css("display", "block");
       $(".unmute").css("display", "block");
       $(".allow-full-screen").css("display", "block");
-      $(".equalizer").click(play);
+      $(".equalizer").click(function(){
+        play();
+        $(".unmute .fas").toggleClass("fa-volume-mute fa-volume");
+      });
       $(".unmute").click(function () {
         play();
         $(".equalizer").toggleClass("paused");
+        $(".unmute .fas").toggleClass("fa-volume-mute fa-volume");
       });
 
       // Allow Full Screen
