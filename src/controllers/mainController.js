@@ -1,4 +1,3 @@
-const { anywhere } = require("../config/db");
 const db = require("../config/db");
 
 exports.getMainPage = (req, res) => {
